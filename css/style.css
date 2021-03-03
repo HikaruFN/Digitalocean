@@ -1,1 +1,36 @@
 /*COMMON*/
+
+
+/*HEADER*/
+.wrapper-header{
+    margin-top: 20px;
+}
+header ul{
+    line-height: 30px;
+}
+header li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+header a{
+    color: #031c4e;
+    font-weight: bold;
+}
+header .custom_button{
+    color: #1678ff;
+    border-color: #1678ff;
+}
+/*Burger*/
+.burger i{
+    font-size: 30px;
+    color: #1678ff;
+    line-height: 30px;
+}
+.burger{
+    line-height: 75px;
+}
+/*Jumbotron*/
+.wrapper-jumbotron{
+    background-image: url(../img/);
+}
