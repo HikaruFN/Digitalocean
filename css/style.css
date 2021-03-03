@@ -39,6 +39,7 @@ header .custom_button{
 }
 .jumbotron-content{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .jumbotron-content h1{
     color: white;
@@ -47,4 +48,42 @@ header .custom_button{
 .jumbotron-content p{
     color: #bbcdff;
     font-size: 20px;
+}
+
+/*Form / Form Wrapper*/
+.form-wrapper{
+ background-color: white;
+ border-radius: 10px;
+ padding: 10px;
+}
+.form-wrapper h2{
+    color: #031c4e;
+}
+.form-wrapper a{
+    color: #006aff;
+}
+.form-wrapper button{
+    width: 100%;
+    font-weight: bold;
+}
+.btn_blue{
+    color: white;
+    background-color: #579aff;
+}
+.btn_white{
+    color: #707070;
+    background-color: white;
+}
+.btn_white img{
+    width: 3%;
+}
+
+/*Termini di servizio*/
+.termini-di-servizio p{
+    color: #031c4e;
+    font-size: 15px;
+}
+.termini-di-servizio a{
+    text-decoration: underline;
+    font-size: 15px;
 }
