@@ -33,5 +33,18 @@ header .custom_button{
 /*Jumbotron*/
 .wrapper-jumbotron{
     background-image: url(../img/ms-jumbo.jpg);
-    height: 810px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jumbotron-content{
+    margin-top: 50px;
+}
+.jumbotron-content h1{
+    color: white;
+    font-size: 50px;
+}
+.jumbotron-content p{
+    color: #bbcdff;
+    font-size: 20px;
 }
