@@ -26,6 +26,8 @@ header .custom_button{
     font-size: 30px;
     color: #1678ff;
     line-height: 30px;
+    width: 100%;
+    display: block;
 }
 .burger{
     line-height: 75px;
