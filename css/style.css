@@ -171,4 +171,20 @@ header .custom_button{
     background-color: #f3f5f9;
     border: 1px solid #006aff;
 }
-
+/*Feature*/
+.feature-sect-wrapper{
+    padding: 30px;
+}
+.feature-wrapper{
+    padding: 30px;
+}
+.feature-wrapper h3{
+    font-size: 20px;
+}
+.feature-wrapper p{
+    font-size: 15px;
+}
+.feature-wrapper a{
+    color: #2981ff;
+    font-weight: bold;
+}
