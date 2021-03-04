@@ -140,10 +140,11 @@ header .custom_button{
 }
 .sponsor-img li{
     display: inline-block;
-    max-width: calc((100% / 6) - 8px);
+    width: calc((100% / 6) - 8px);
 }
-.sponsor-img li img{
-    padding: 20px;
+.sponsor-img li .custom_img{
+    display: inline-block;
+    width: 100%;
 }
 /*Configurazioni*/
 .conf-wrapper{
@@ -153,6 +154,7 @@ header .custom_button{
     list-style: none;
     border-left: 1px solid #cccccc;
     margin-top: 40px;
+    padding: 0;
 }
 .conf-wrapper li{
     color: #75809a;
@@ -288,4 +290,17 @@ header .custom_button{
     color: #a4abbb;
     font-size: 15px;
     font-weight: bold;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 767px){
+.sponsor-img li{
+        display: inline-block;
+        width: calc((100% / 2) - 8px);
+        margin-left: 5px;
+}
+.sponsor-img ul{
+    padding: 0;
+}
 }
