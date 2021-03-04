@@ -10,6 +10,10 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
     background-color: #f3f5f9;
     padding: 30px;
 }
+.wrapper-grey h3{
+    color: #828da5;
+    font-size: 20px;
+}
 .wrapper-grey p{
     color: #586686;
     font-size: 15px;
