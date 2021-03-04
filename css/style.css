@@ -294,6 +294,7 @@ header .custom_button{
 
 
 /*Media Queries*/
+/*Immagini-Sponsor*/
 @media only screen and (max-width: 767px){
 .sponsor-img li{
         display: inline-block;
