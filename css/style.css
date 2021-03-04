@@ -1,5 +1,17 @@
 /*COMMON*/
-
+.wrapper-grey{
+    background-color: #f3f5f9;
+    padding: 30px;
+}
+.wrapper-grey p{
+    color: #586686;
+    font-size: 15px;
+    font-weight: 500;
+}
+.wrapper-grey a{
+    color: #006aff;
+    font-size: 20px;
+}
 
 /*HEADER*/
 .wrapper-header{
@@ -76,11 +88,11 @@ header .custom_button{
     position: relative;
 }
 .btn_white img{
-    width: 3%;
+    height: 20px;
+    width: 20px;
     position: absolute;
-    left: 0%;
+    left: 0px;
 }
-
 /*Termini di servizio*/
 .termini-di-servizio p{
     color: #031c4e;
@@ -90,3 +102,16 @@ header .custom_button{
     text-decoration: underline;
     font-size: 15px;
 }
+
+
+/*MAIN*/
+/*Immagini Sponsor*/
+.sponsor-img{
+    padding: 20px;
+}
+.sponsor-img img{
+    vertical-align: middle;
+    margin-left: 10px;
+    width: calc((100% / 12)*2);
+}
+
