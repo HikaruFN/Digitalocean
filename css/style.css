@@ -207,9 +207,10 @@ header .custom_button{
 }
 .regioni-col a{
     color: #2981ff;
-    font-size: 15px;
+    font-size: 10px;
     padding-left: 30px;
 }
 .regioni-col hr{
+    margin: 0;
     margin-top: -5px;
 }
