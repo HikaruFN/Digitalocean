@@ -19,6 +19,14 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
     color: #006aff;
     font-size: 20px;
 }
+.wrapper-blue{
+    padding: 30px;
+    background: rgb(0,30,153);
+    background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
+}
+.wrapper-blue h2{
+    color: white;
+}
 
 
 /*HEADER*/
@@ -189,12 +197,8 @@ header .custom_button{
     font-weight: bold;
 }
 /*Regioni*/
-.regioni-sect-wrapper{
-    padding: 30px;
-    background-color: #0040bd;
-}
-.regioni-sect-wrapper h2{
-    color: white;
+.border-bottom-regioni{
+    border-bottom: 1px solid #cfd9f0;
 }
 .regioni-col h5{
     color: white;
@@ -210,10 +214,6 @@ header .custom_button{
     font-size: 10px;
     padding-left: 30px;
 }
-.regioni-col hr{
-    margin: 0;
-    margin-top: -5px;
-}
 /*Team di sviluppo*/
 .rockerbox-container{
     margin: 0 auto;
@@ -226,8 +226,15 @@ header .custom_button{
 
 }
 .wrapper-grey .chevron-dev{
-    position: relative;
     color: #031c4e;
     font-size: 30px;
-    top: 110px;
+    line-height: 190px;
+}
+
+
+/**FOOTER/
+/*Get started*/
+.wrapper-blue .btn_custom{
+    color: #2980ff;
+    margin: 20px 0;
 }
