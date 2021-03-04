@@ -264,6 +264,7 @@ header .custom_button{
 .social ul{
     list-style: none;
     padding: 0;
+
 }
 .social li{
     color: #7a859d;
@@ -271,4 +272,20 @@ header .custom_button{
     display: inline-block;
     font-size: 25px;
     
+}
+.link-footer{
+    padding: 30px;
+}
+.link-footer ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.link-footer li{
+    margin-top: 10px;
+}
+.link-footer a{
+    color: #a4abbb;
+    font-size: 15px;
+    font-weight: bold;
 }
