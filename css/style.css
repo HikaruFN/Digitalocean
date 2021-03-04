@@ -248,3 +248,27 @@ header .custom_button{
     color: #2980ff;
     margin: 20px 0;
 }
+/*Info e Link*/
+.info{
+    padding: 30px;
+}
+.info p{
+    color: #8790a6;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#special-txt{
+    color: #576584;
+    font-size: 15px;
+}
+.social ul{
+    list-style: none;
+    padding: 0;
+}
+.social li{
+    color: #7a859d;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 25px;
+    
+}
