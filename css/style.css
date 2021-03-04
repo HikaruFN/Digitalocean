@@ -1,8 +1,5 @@
 /*COMMON*/
-body h2{/*Ho dovuto usare un selettore piu specifico*/
-    color: #031c4e;
-}
-body h3{/*Ho dovuto usare un selettore piu specifico*/
+body h2,h3,h4{/*Ho dovuto usare un selettore piu specifico*/
     color: #031c4e;
 }
 body p{/*Ho dovuto usare un selettore piu specifico*/
@@ -22,6 +19,7 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
     color: #006aff;
     font-size: 20px;
 }
+
 
 /*HEADER*/
 .wrapper-header{
@@ -144,5 +142,33 @@ header .custom_button{
     font-size: 20px;
     margin-left: -20px;
 }
-
+.wrapper-conf-sistem{
+    padding: 30px
+}
+.wrapper-conf-sistem p{
+    font-size: 15px;
+}
+/*Pannello di controllo*/
+.pann-ctrl-img{
+    padding: 30px
+}
+.pann-ctrl-img img{
+    max-width: 60%;
+}
+.pann-ctrl-img .chevron{
+    color: #031c4e;
+    padding: 5px;
+    font-size: 30px;
+}
+.circles a{
+    display: inline-block;
+    background-color: #006aff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.circles a:hover{
+    background-color: #f3f5f9;
+    border: 1px solid #006aff;
+}
 
