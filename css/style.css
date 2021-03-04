@@ -214,3 +214,20 @@ header .custom_button{
     margin: 0;
     margin-top: -5px;
 }
+/*Team di sviluppo*/
+.rockerbox-container{
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    background-color: white;
+    max-height: 300px;
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+.wrapper-grey .chevron-dev{
+    position: relative;
+    color: #031c4e;
+    font-size: 30px;
+    top: 110px;
+}
