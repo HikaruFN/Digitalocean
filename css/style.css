@@ -27,6 +27,15 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
 .wrapper-blue h2{
     color: white;
 }
+.wrapper-navy{
+    background-color: #031c4e;
+}
+.wrapper-navy h4{
+    color: white;
+}
+.wrapper-navy p{
+    color: #a3aaba;
+}
 
 
 /*HEADER*/
