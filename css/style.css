@@ -188,3 +188,28 @@ header .custom_button{
     color: #2981ff;
     font-weight: bold;
 }
+/*Regioni*/
+.regioni-sect-wrapper{
+    padding: 30px;
+    background-color: #0040bd;
+}
+.regioni-sect-wrapper h2{
+    color: white;
+}
+.regioni-col h5{
+    color: white;
+    display: inline-block;
+}
+.regioni-col p{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.regioni-col a{
+    color: #2981ff;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.regioni-col hr{
+    margin-top: -5px;
+}
