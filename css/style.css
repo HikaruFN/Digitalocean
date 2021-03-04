@@ -1,4 +1,14 @@
 /*COMMON*/
+body h2{/*Ho dovuto usare un selettore piu specifico*/
+    color: #031c4e;
+}
+body h3{/*Ho dovuto usare un selettore piu specifico*/
+    color: #031c4e;
+}
+body p{/*Ho dovuto usare un selettore piu specifico*/
+    color: #5c6a88;
+    font-size: 20px;
+}
 .wrapper-grey{
     background-color: #f3f5f9;
     padding: 30px;
@@ -109,9 +119,30 @@ header .custom_button{
 .sponsor-img{
     padding: 20px;
 }
-.sponsor-img img{
-    vertical-align: middle;
-    margin-left: 10px;
-    width: calc((100% / 12)*2);
+.sponsor-img ul{
+    list-style: none;
 }
+.sponsor-img li{
+    display: inline-block;
+    max-width: calc((100% / 6) - 8px);
+}
+.sponsor-img li img{
+    padding: 20px;
+}
+/*Configurazioni*/
+.conf-wrapper{
+    padding: 30px;
+}
+.conf-wrapper ul{
+    list-style: none;
+    border-left: 1px solid #cccccc;
+    margin-top: 40px;
+}
+.conf-wrapper li{
+    color: #75809a;
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
 
