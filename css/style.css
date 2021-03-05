@@ -212,21 +212,22 @@ header .custom_button{
 .border-bottom-regioni{
     border-bottom: 1px solid #cfd9f0;
 }
-.regioni-col h5{
-    color: white;
+.regioni-col{
+    margin: 10px 0;
+}
+.regioni-col h5,p,a{
     display: inline-block;
+    margin: 0px;
+}
+.regioni-col h5{
+    color: #eaeff8;
 }
 .regioni-col p{
-    display: inline-block;
     font-size: 15px;
-    padding-left: 30px;
+    color: #a2b4e1;
 }
 .regioni-col a{
-    color: #2981ff;
-    font-size: 10px;
-}
-.col-inner{
-    padding: 20px;
+    color: #00cccf;
 }
 /*Team di sviluppo*/
 .rockerbox-container{
