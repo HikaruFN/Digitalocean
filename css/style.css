@@ -224,7 +224,9 @@ header .custom_button{
 .regioni-col a{
     color: #2981ff;
     font-size: 10px;
-    padding-left: 30px;
+}
+.col-inner{
+    padding: 20px;
 }
 /*Team di sviluppo*/
 .rockerbox-container{
