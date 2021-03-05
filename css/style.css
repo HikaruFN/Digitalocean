@@ -40,6 +40,11 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
 .wrapper-navy p{
     color: #a3aaba;
 }
+.custom_img{
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
 
 
 /*HEADER*/
@@ -142,10 +147,6 @@ header .custom_button{
     display: inline-block;
     width: calc((100% / 6) - 8px);
 }
-.sponsor-img li .custom_img{
-    display: inline-block;
-    width: 100%;
-}
 /*Configurazioni*/
 .conf-wrapper{
     padding: 30px;
@@ -231,19 +232,38 @@ header .custom_button{
 }
 /*Team di sviluppo*/
 .rockerbox-container{
-    margin: 0 auto;
-    padding: 30px 0;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin: 40px 0;
     background-color: white;
-    max-height: 300px;
-    max-width: 500px;
+    height: auto;
+    max-width: 60%;
     border-radius: 10px;
-
+    display: inline-block;
+    vertical-align: middle;
 }
 .wrapper-grey .chevron-dev{
     color: #031c4e;
     font-size: 30px;
-    line-height: 190px;
+    padding: 0;
+}
+.rockerbox-container .custom_img{
+    max-width: 300px;
+}
+.rockerbox-container p{
+    font-size: 20px;
+}
+.rockerbox-container h4{
+    color: #263b65;
+    font-weight: 700
+}
+.rockerbox-container h5{
+    color: #283c65;  
+    font-weight: 700
+}
+.rockerbox-container a{
+    color: #006aff;
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 
@@ -262,7 +282,7 @@ header .custom_button{
     font-size: 15px;
     margin-top: 10px;
 }
-#special-txt{
+#special-txt-info{
     color: #576584;
     font-size: 15px;
 }
