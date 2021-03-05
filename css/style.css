@@ -24,7 +24,7 @@ body p{/*Ho dovuto usare un selettore piu specifico*/
     font-size: 20px;
 }
 .wrapper-blue{
-    padding: 30px;
+    padding: 10px;
     background: rgb(0,30,153);
     background: linear-gradient(0deg, rgba(0,30,153,1) 0%, rgba(0,72,198,1) 100%);
 }
@@ -339,7 +339,6 @@ header .custom_button{
   margin: 20px;
 }
 .container-fumetto{
-    height: 100px;
     width: 200px;
     border-radius: 10px;
     border-bottom-right-radius: 0px;
