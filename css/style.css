@@ -328,3 +328,23 @@ header .custom_button{
     padding: 0;
 }
 }
+
+/*Squalo*/
+.container-squalo{
+  position: relative;
+  position: fixed;
+  right: 0vh;
+  bottom: 0vh;
+  z-index: 1;
+  margin: 20px;
+}
+.container-fumetto{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    right: 185px;
+}
